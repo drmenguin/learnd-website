@@ -1,0 +1,20 @@
+@font-face {
+    font-family : 'sfbold';
+    src: url('SF-Pro-Display-Heavy.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family : 'sfregular';
+    src: url('SF-Pro-Display-Bold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+   font-family : 'sflight';
+   src: url('SF-Pro-Display-Light.otf');
+   font-weight: normal;
+   font-style: normal;
+}

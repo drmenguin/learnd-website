@@ -10,7 +10,7 @@
 body {
   background: #fff;
   color: #666666;
-  font-family: "Open Sans", sans-serif;
+  font-family: "sflight", sans-serif;
   overflow-x: hidden;
 }
 
@@ -31,7 +31,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "sfregular", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -86,9 +86,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   line-height: 1;
   display: inline-block;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 300;
-  letter-spacing: 3px;
+  font-family: 'sfbold';
   text-transform: uppercase;
 }
 
@@ -112,11 +110,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-fixed {
-  background: linear-gradient(45deg, #1de099, #1dc8cd);
+  background: #fff;
   padding: 20px 0;
   height: 72px;
   transition: all 0.5s;
 }
+
+#header.header-fixed #logo h1 a {
+  color: #59C4C6;
+}
+
 
 /*--------------------------------------------------------------
 # Intro Section
@@ -124,8 +127,11 @@ h1, h2, h3, h4, h5, h6 {
 #intro {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(180deg, rgba(89, 196, 198, 1), rgba(191, 234, 235, 0.8)), url("../img/unsplash/blackboard.jpg") center top no-repeat;
-  background-size: cover;
+  background-color: #2E3B4F;
+  background-image:  url("../img/owl.svg");
+  background-position: 0% 10%;
+  background-repeat: no-repeat;
+  background-size: contain;
   position: relative;
 }
 
@@ -136,9 +142,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro .intro-text {
+  font-family: 'sfregular';
   position: absolute;
   left: 0;
-  top: 60px;
+  top: 150px;
   right: 0;
   height: calc(50% - 60px);
   display: flex;
@@ -149,6 +156,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro h2 {
+  font-family: 'sfregular';
   margin: 30px 0 10px 0;
   padding: 0 15px;
   font-size: 48px;
@@ -180,22 +188,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro .btn-get-started {
-  font-family: "Montserrat", sans-serif;
   font-weight: 400;
+  background: #F05822;
   font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 8px 28px;
+  padding: 12px 40px;
   border-radius: 50px;
   transition: 0.5s;
-  margin: 10px;
+  margin: 50px;
   border: 2px solid #fff;
   color: #fff;
 }
 
 #intro .btn-get-started:hover {
-  color: #1dc8cd;
-  background: #fff;
+  background: #f96a36;
 }
 
 #intro .product-screens {
@@ -324,10 +331,18 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   display: inline-block;
   color: #fff;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'sfregular';
   font-weight: 400;
-  font-size: 14px;
+  font-size: 20px;
   outline: none;
+}
+
+#header.header-fixed .nav-menu a {
+  color: #2E3B4F;
+}
+
+#header.header-fixed .nav-menu .menu-active a {
+  color: #59C4C6;
 }
 
 .nav-menu > li {
@@ -414,6 +429,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #mobile-nav ul li a {
   color: #fff;
+  font-family: 'sfregular';
   font-size: 16px;
   overflow: hidden;
   padding: 10px 22px 10px 15px;
