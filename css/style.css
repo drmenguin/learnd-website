@@ -145,7 +145,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'sfregular';
   position: absolute;
   left: 20%;
-  top: 200px;
+  top: 25%;
   right: 0;
   height: calc(50% - 60px);
   display: flex;
