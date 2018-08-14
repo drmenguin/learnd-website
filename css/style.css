@@ -145,7 +145,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'sfregular';
   position: absolute;
   left: 20%;
-  top: 25%;
+  top: 200px;
   right: 0;
   height: calc(50% - 60px);
   display: flex;
@@ -522,7 +522,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Section with background
 --------------------------------*/
 .section-bg {
-  background: #eff5f5;
+  background: #fff;
 }
 
 /* About Us Section
