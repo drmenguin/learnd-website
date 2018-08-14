@@ -580,7 +580,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #F05822;
 }
 
-#about em.teal {
+em.teal {
   font-style: normal;
   text-decoration: none;
   color: #59C4C6;
@@ -634,6 +634,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
 }
 
+#features .icon img {
+  height: 60px;
+}
+
 #features .icon {
   margin-bottom: 10px;
 }
@@ -663,9 +667,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #features .description {
-  font-size: 14px;
+  font-family: 'sflight';
+  font-size: 20px;
   line-height: 24px;
-  margin-bottom: 10px;
+  margin-bottom: 60px;
 }
 
 #features .section-description {
