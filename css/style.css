@@ -567,7 +567,23 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .content p {
-  line-height: 26px;
+  margin: 50px 120px 40px 80px;
+  text-align: center;
+  line-height: 50px;
+  font-family: 'sfregular';
+  font-size: 20pt;
+}
+
+#about em.orange {
+  font-style: normal;
+  text-decoration: none;
+  color: #F05822;
+}
+
+#about em.teal {
+  font-style: normal;
+  text-decoration: none;
+  color: #59C4C6;
 }
 
 #about .content p:last-child {
