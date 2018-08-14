@@ -513,8 +513,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: block;
   width: 60px;
   height: 3px;
-  background: #1dc8cd;
-  background: linear-gradient(0deg, #1dc8cd 0%, #55fabe 100%);
+  background: #59C4C6;
+  background: linear-gradient(0deg, #59C4C6 0%, #59C4C6 100%);
   margin: 0 auto;
   margin-bottom: 20px;
 }
@@ -643,14 +643,13 @@ em.teal {
 }
 
 #features .icon i {
-  color: #666666;
+  color: #59C4C6;
   font-size: 40px;
   transition: 0.5s;
 }
 
 #features .icon i:before {
-  background: #1dc8cd;
-  background: linear-gradient(45deg, #1dc8cd 0%, #55fabe 100%);
+  background: #59C4C6;
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -754,19 +753,21 @@ em.teal {
 --------------------------------*/
 #call-to-action {
   overflow: hidden;
-  background: linear-gradient(rgba(29, 200, 205, 0.65), rgba(29, 205, 89, 0.2)), url(../img/call-to-action-bg.jpg) fixed center center;
+  background: linear-gradient(rgba(89, 196, 198, 0.65), rgba(89, 196, 198, 0.2)), url(../img/call-to-action-bg.jpg) fixed center center;
   background-size: cover;
   padding: 80px 0;
 }
 
 #call-to-action .cta-title {
   color: #fff;
+  font-family: 'sfregular';
   font-size: 28px;
-  font-weight: 700;
 }
 
 #call-to-action .cta-text {
   color: #fff;
+  font-family: 'sflight';
+  font-size: 20px;
 }
 
 @media (min-width: 769px) {
@@ -778,8 +779,7 @@ em.teal {
 }
 
 #call-to-action .cta-btn {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
+  font-family: 'sfregular';
   font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
@@ -792,7 +792,7 @@ em.teal {
 }
 
 #call-to-action .cta-btn:hover {
-  background: #1dc8cd;
+  background: #59C4C6;
   border: 2px solid #1dc8cd;
 }
 
@@ -823,8 +823,7 @@ em.teal {
 }
 
 #more-features .icon i:before {
-  background: #1dc8cd;
-  background: linear-gradient(45deg, #1dc8cd 0%, #55fabe 100%);
+  background: #59C4C6;
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -832,17 +831,19 @@ em.teal {
 
 #more-features h4 {
   margin-left: 100px;
-  font-weight: 700;
+  color: #2E3B4F;
+  font-family: 'sfregular';
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 22px;
 }
 
 #more-features h4 a {
-  color: #111;
+  color: #2E3B4F;
 }
 
 #more-features p {
-  font-size: 14px;
+  font-family: 'sflight';
+  font-size: 20px;
   margin-left: 100px;
   margin-bottom: 0;
   line-height: 24px;
@@ -875,12 +876,92 @@ em.teal {
   max-width: 100%;
   opacity: 0.5;
   transition: 0.3s;
-  padding: 15px 0;
+  padding: 15px 50px;
 }
 
 #clients img:hover {
   opacity: 1;
 }
+
+/* More More Features Section
+--------------------------------*/
+#moremore-features {
+  padding: 60px 0 60px 0;
+  overflow: hidden;
+}
+
+#moremore-features .section-divider {
+  background: #F05822;
+}
+
+#moremore-features .box {
+  padding: 40px;
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
+  background: #fff;
+  transition: 0.4s;
+}
+
+#moremore-features img {
+  width: 80px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+#moremore-features .icon {
+  float: left;
+}
+
+#moremore-features .icon i {
+  color: #666666;
+  font-size: 80px;
+  transition: 0.5s;
+  line-height: 0;
+}
+
+#moremore-features .icon i:before {
+  background: #59C4C6;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#moremore-features h4 {
+  margin-left: 100px;
+  color: #2E3B4F;
+  font-family: 'sfregular';
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+#moremore-features h4 a {
+  color: #2E3B4F;
+}
+
+#moremore-features p {
+  font-family: 'sflight';
+  font-size: 20px;
+  margin-left: 100px;
+  margin-bottom: 0;
+  line-height: 24px;
+}
+
+@media (max-width: 767px) {
+  #moremore-features .box {
+    margin-bottom: 20px;
+  }
+  #moremore-features .icon {
+    float: none;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  #moremore-features h4, #moremore-features p {
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
+
 
 /* Pricing Section
 --------------------------------*/
