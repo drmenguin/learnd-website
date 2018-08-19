@@ -15,7 +15,7 @@ body {
 }
 
 a {
-  color: #1dc8cd;
+  color: #59c4c6;
   transition: 0.5s;
 }
 
@@ -970,6 +970,12 @@ em.teal {
   overflow: hidden;
 }
 
+#pricing .section-divider {
+  background: #F05822;
+}
+
+
+
 #pricing .box {
   padding: 40px;
   margin-bottom: 30px;
@@ -986,7 +992,7 @@ em.teal {
 
 #pricing h4 {
   font-size: 46px;
-  color: #1dc8cd;
+  color: #f05822;
   font-weight: 300;
 }
 
@@ -1004,6 +1010,7 @@ em.teal {
   padding: 0;
   list-style: none;
   color: #999;
+  font-size: 18px;
   text-align: left;
   line-height: 20px;
 }
@@ -1013,7 +1020,7 @@ em.teal {
 }
 
 #pricing ul i {
-  color: #1dc8cd;
+  color: #f05822;
   font-size: 18px;
   padding-right: 4px;
 }
@@ -1026,16 +1033,14 @@ em.teal {
   color: #fff;
   transition: none;
   font-size: 14px;
-  font-weight: 400;
-  font-family: "Montserrat", sans-serif;
 }
 
 #pricing .featured {
-  border: 2px solid #1dc8cd;
+  border: 2px solid #f05822;
 }
 
 #pricing .featured .get-started-btn {
-  background: linear-gradient(45deg, #1de099, #1dc8cd);
+  background: #f05822;
 }
 
 /* Frequently Asked Questions Section
@@ -1058,7 +1063,6 @@ em.teal {
   padding: 18px 0;
   display: block;
   position: relative;
-  font-family: "Montserrat", sans-serif;
   font-size: 22px;
   line-height: 1;
   font-weight: 300;
@@ -1086,7 +1090,7 @@ em.teal {
 }
 
 #faq #faq-list a.collapse {
-  color: #1dc8cd;
+  color: #000;
 }
 
 #faq #faq-list a.collapsed {
@@ -1210,11 +1214,9 @@ em.teal {
   margin: 0 0 10px 0;
   padding: 0;
   line-height: 1;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 300;
-  letter-spacing: 3px;
+  font-family: "trueno";
   text-transform: uppercase;
-  color: #1dc8cd;
+  color: #2E3B4F;
 }
 
 #contact .contact-about p {
@@ -1232,7 +1234,7 @@ em.teal {
   font-size: 18px;
   display: inline-block;
   background: #fff;
-  color: #1dc8cd;
+  color: #59c4c6;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1241,11 +1243,11 @@ em.teal {
   width: 36px;
   height: 36px;
   transition: 0.3s;
-  border: 1px solid #1dc8cd;
+  border: 1px solid #59c4c6;
 }
 
 #contact .social-links a:hover {
-  background: #1dc8cd;
+  background: #59c4c6;
   color: #fff;
 }
 
@@ -1255,7 +1257,8 @@ em.teal {
 
 #contact .info i {
   font-size: 32px;
-  color: #1dc8cd;
+  color: #59c4c6;
+
   float: left;
   line-height: 1;
 }
@@ -1267,8 +1270,8 @@ em.teal {
 }
 
 #contact .form #sendmessage {
-  color: #1dc8cd;
-  border: 1px solid #1dc8cd;
+  color: #59c4c6;
+  border: 1px solid #59c4c6;
   display: none;
   text-align: center;
   padding: 15px;
@@ -1305,7 +1308,7 @@ em.teal {
 }
 
 #contact .form button[type="submit"] {
-  background: linear-gradient(45deg, #1de099, #1dc8cd);
+  background: #59c4c6;
   border: 0;
   border-radius: 20px;
   padding: 8px 30px;
