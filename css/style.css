@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   line-height: 1;
   display: inline-block;
-  font-family: 'sfbold';
+  font-family: 'trueno';
   text-transform: uppercase;
 }
 
@@ -395,7 +395,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mobile-nav-toggle i {
-  color: #fff;
+  color: #F05822;
 }
 
 @media (max-width: 768px) {
@@ -626,7 +626,7 @@ em.teal {
 }
 
 #features .features-img img {
-  max-width: 100%;
+  max-width: 80%;
 }
 
 #features .box {
