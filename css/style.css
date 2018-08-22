@@ -1022,7 +1022,7 @@ em.teal {
 #pricing ul i {
   color: #f05822;
   font-size: 18px;
-  padding-right: 4px;
+  padding-right: 8px;
 }
 
 #pricing .get-started-btn {
@@ -1077,6 +1077,7 @@ em.teal {
 }
 
 #faq #faq-list p {
+  font-size: 14pt;
   margin-bottom: 20px;
 }
 
@@ -1132,7 +1133,7 @@ em.teal {
 #team .member span {
   font-style: italic;
   display: block;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 #team .member .social {
@@ -1222,7 +1223,6 @@ em.teal {
 #contact .contact-about p {
   font-size: 14px;
   line-height: 24px;
-  font-family: "Montserrat", sans-serif;
   color: #888;
 }
 
@@ -1252,6 +1252,10 @@ em.teal {
 }
 
 #contact .info {
+  color: #333333;
+}
+
+#contact .info a{
   color: #333333;
 }
 
