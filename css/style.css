@@ -188,6 +188,26 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.strikethrough {
+  position: relative;
+}
+
+.strikethrough:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 50%;
+  right: 0;
+  border-top: 1px solid;
+  border-color: inherit;
+
+  -webkit-transform:rotate(-5deg);
+  -moz-transform:rotate(-5deg);
+  -ms-transform:rotate(-5deg);
+  -o-transform:rotate(-5deg);
+  transform:rotate(-5deg);
+}
+
 #intro .btn-get-started {
   font-weight: 400;
   background: #F05822;
@@ -1001,7 +1021,7 @@ em.teal {
   top: -20px;
 }
 
-#pricing h4 span {
+#pricing .prezz {
   color: #bababa;
   font-size: 20px;
 }
